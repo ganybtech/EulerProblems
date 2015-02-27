@@ -110,9 +110,11 @@ public class LargeSum
         
         for (int i = 0; i < data.length();)
         {
+        	
             i++;
             
             temp = temp + Double.parseDouble(data.substring(i - 1, i));
+            
         }
         
         System.out.println(temp);
