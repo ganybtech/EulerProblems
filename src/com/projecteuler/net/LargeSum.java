@@ -106,6 +106,7 @@ public class LargeSum
                 + "53503534226472524250874054075591789781264330331690";
 
         double temp = 0;
+        
         for (int i = 0; i < data.length();)
         {
             i++;
