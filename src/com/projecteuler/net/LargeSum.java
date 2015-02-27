@@ -2,10 +2,6 @@ package com.projecteuler.net;
 
 public class LargeSum
 {
-
-    /**
-     * @param args
-     */
     public static void main(final String[] args)
     {
         final String data = "37107287533902102798797998220837590246510135740250"
@@ -115,10 +111,6 @@ public class LargeSum
             i++;
             temp = temp + Double.parseDouble(data.substring(i - 1, i));
         }
-
         System.out.println(temp);
-
-
     }
-
 }
