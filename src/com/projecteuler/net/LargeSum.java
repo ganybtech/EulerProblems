@@ -113,6 +113,7 @@ public class LargeSum
         	
             i++;
             
+            
             temp = temp + Double.parseDouble(data.substring(i - 1, i));;
             
         }
